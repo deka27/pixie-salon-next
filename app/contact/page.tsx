@@ -4,10 +4,42 @@
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 
+const ContactTextArea = ({ row, placeholder, name, defaultValue }: { row: number, placeholder: string, name: string, defaultValue: string }) => {
+  return (
+    <>
+      <div className="mb-6">
+        <textarea
+          rows={row}
+          placeholder={placeholder}
+          name={name}
+          className="border-[f0f0f0] w-full resize-none rounded border py-3 px-[14px]  text-black  outline-none focus:border-primary focus-visible:shadow-none "
+          defaultValue={defaultValue}
+        />
+      </div>
+    </>
+  );
+};
+
+
+const ContactInputBox = ({ type, placeholder, name }: {type: string, placeholder: string, name: string,}) => {
+  return (
+    <>
+      <div className="mb-6">
+        <input
+          type={type}
+          placeholder={placeholder}
+          name={name}
+          className="border-[f0f0f0] w-full rounded border py-3 px-[14px]  text-black  outline-none focus-visible:shadow-none "
+        />
+      </div>
+    </>
+  );
+};
 
 export default function page() {
 return (
-  <section className=" py-20 lg:py-[120px] overflow-hidden relative">
+  <div className="p-4">
+  <section className="py-20 lg:py-[120px] overflow-hidden relative">
         <div className="container mx-auto">
           <div className="flex flex-wrap -mx-4 lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
@@ -361,38 +393,8 @@ return (
             </div>
           </div>
         </div>
-      </section>
+  </section>
+  </div>
 );
 }
 
-const ContactTextArea = ({ row, placeholder, name, defaultValue }: { row: number, placeholder: string, name: string, defaultValue: string }) => {
-  return (
-    <>
-      <div className="mb-6">
-        <textarea
-          rows={row}
-          placeholder={placeholder}
-          name={name}
-          className="border-[f0f0f0] w-full resize-none rounded border py-3 px-[14px]  text-black  outline-none focus:border-primary focus-visible:shadow-none "
-          defaultValue={defaultValue}
-        />
-      </div>
-    </>
-  );
-};
-
-
-const ContactInputBox = ({ type, placeholder, name }: {type: string, placeholder: string, name: string,}) => {
-  return (
-    <>
-      <div className="mb-6">
-        <input
-          type={type}
-          placeholder={placeholder}
-          name={name}
-          className="border-[f0f0f0] w-full rounded border py-3 px-[14px]  text-black  outline-none focus-visible:shadow-none "
-        />
-      </div>
-    </>
-  );
-};
