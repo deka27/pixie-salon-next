@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-
+import { motion } from "framer-motion";
+const transition = { duration: 0.5, ease: [0.43, 0.13, 0.23, 0.96] };
 export default function Booking() {
   const services = [
     { value: "Hair", label: "Hair  Service" },
@@ -34,7 +35,12 @@ export default function Booking() {
   };
 
   return (
-    <div className="">
+    <motion.div
+    initial={{ opacity: 0, y: 100 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={transition}
+      viewport={{ once: true }}
+    className="">
       <div className="flex items-center flex-col justify-center px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 ">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div>
@@ -177,6 +183,6 @@ export default function Booking() {
           </form>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

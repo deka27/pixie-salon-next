@@ -83,7 +83,7 @@ export default function Header() {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 bg-black absolute top-20 right-0 mx-4 my-4 min-w-[140px] rounded-xl sidebar z-50 transition-all ease-in-out`}
+            } p-6 bg-black absolute top-20 right-0 mx-4 my-4 min-w-[140px] rounded-xl sidebar z-50 transition-all ease-in-out border border-white`}
           >
             <ul className="list-none flex justify-end items-start flex-1 flex-col">
               {navLinks.map((nav, index) => (

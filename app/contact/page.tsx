@@ -1,4 +1,6 @@
-
+"use client";
+import { motion } from "framer-motion";
+const transition = { duration: 0.5, ease: [0.43, 0.13, 0.23, 0.96] };
 
 
 import { MdEmail } from "react-icons/md";
@@ -38,7 +40,12 @@ const ContactInputBox = ({ type, placeholder, name }: {type: string, placeholder
 
 export default function page() {
 return (
-  <div className="p-4">
+  <motion.div
+  initial={{ opacity: 0, y: 100 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={transition}
+  viewport={{ once: true }}
+  className="p-4">
   <section className="py-20 lg:py-[120px] overflow-hidden relative">
         <div className="container mx-auto">
           <div className="flex flex-wrap -mx-4 lg:justify-between">
@@ -394,7 +401,7 @@ return (
           </div>
         </div>
   </section>
-  </div>
+  </motion.div>
 );
 }
 
