@@ -206,6 +206,7 @@ export default function Hair() {
                   initial={{ opacity: 0, y: 100 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={transition}
+                  viewport={{ once: true }}
                   key={section}
                   id={section}
                   className={`w-full h-full overflow-hidden ${activeSection === section ? "" : "hidden"}`}
