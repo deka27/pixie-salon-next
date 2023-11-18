@@ -2,11 +2,12 @@
 
 import { useEffect, useState } from "react";
 import Image, { StaticImageData } from "next/image";
-import Bgs from "@/public/img/bgs.svg";
-import image from "@/public/img/services/skin.jpg";
-import iskin from "@/public/img/icons/skin.png";
-import { AiFillInfoCircle } from "react-icons/ai";
+import Bgs from "../../media/bgs.svg";
+import image from "../../media/services/skin.jpg";
+import iskin from "../../media/icons/skin.png";
+
 import Dropdown from "../Dropdown";
+import { AiFillInfoCircle } from "react-icons/ai";
 import { motion } from "framer-motion";
 import toast, { Toaster } from "react-hot-toast";
 

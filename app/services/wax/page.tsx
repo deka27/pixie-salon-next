@@ -3,12 +3,12 @@
 import { useEffect, useState } from "react";
 
 import Image, { StaticImageData } from "next/image";
-import Bgs from "@/public/img/bgs.svg";
-import image from "@/public/img/services/wax.jpg";
-import iwax from "@/public/img/icons/waxing.png";
-import ithread from "@/public/img/icons/threading.png";
-import ibleach from "@/public/img/icons/bleaching.png";
-import idetan from "@/public/img/icons/detan.png";
+import Bgs from "../../media/bgs.svg";
+import image from "../../media/services/wax.jpg";
+import iwax from "../../media/icons/waxing.png";
+import ithread from "../../media/icons/threading.png";
+import ibleach from "../../media/icons/bleaching.png";
+import idetan from "../../media/icons/detan.png";
 
 import Dropdown from "../Dropdown";
 

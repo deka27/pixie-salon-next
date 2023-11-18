@@ -1,12 +1,12 @@
 'use client'
 
 import Image from "next/image";
-import Bgs from "@/public/img/bgs.svg";
-import hair from "@/public/img/services/hair.jpg";
-import skin from "@/public/img/services/skin.jpg";
-import mani from "@/public/img/services/mani.jpg";
-import treat from "@/public/img/services/treat.jpg";
-import wax from "@/public/img/services/wax.jpg";
+import Bgs from "../media/bgs.svg";
+import hair from "../media/services/hair.jpg";
+import skin from "../media/services/skin.jpg";
+import mani from "../media/services/mani.jpg";
+import treat from "../media/services/treat.jpg";
+import wax from "../media/services/wax.jpg";
 
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";

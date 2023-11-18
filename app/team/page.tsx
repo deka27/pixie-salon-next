@@ -41,7 +41,7 @@ const TeamMember: React.FC<TeamMemberProps> = ({
       </div>
     </div>
 
-    <p className="mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+    <p className="mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300 tracking-tight">
       {description}
     </p>
   </div>
@@ -51,32 +51,32 @@ const TeamPage: React.FC = () => {
   const teamMembers: TeamMemberProps[] = [
     {
       imgSrc: "https://source.unsplash.com/mEZ3PoFGs_k",
-      name: "Arthur Melo",
+      name: "Soya",
       role: "Director",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nesciunt officia aliquam neque optio? Cumque facere numquam est.",
+        "With an impressive 16-year tenure as a senior hairstylist, she brings a wealth of expertise from renowned organizations such as Bblunt, Loreal, and Cloud 9. Her extensive skill set encompasses the latest trends, cutting-edge and color techniques, and a nuanced understanding of diverse hair types. Known for delivering exceptional results, she seamlessly combines creativity and precision, ensuring clients not only leave satisfied but transformed. A true professional, her background reflects an unwavering commitment to excellence and a passionate dedication to providing top-notch hairstyling services. With a proven track record, she consistently infuses every client experience with creativity, precision, and a deep understanding of the latest trends, setting her apart as a distinguished figure in the beauty industry.",
     },
     {
       imgSrc: "https://source.unsplash.com/QXevDflbl8A",
-      name: "Amelia Anderson",
+      name: "Chelsea",
       role: "Lead Stylist",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nesciunt officia aliquam neque optio? Cumque facere numquam est.",
+        "A highly skilled beautician with a delightful personality, she is always dedicated to enhancing your experience. Prioritizing the delivery of top-quality service, she consistently works her magic to leave clients amazed with her skillful touch. Her expertise has played a pivotal role in boosting the confidence of numerous clients, as she ensures that every visitor departs with a smile and a profound sense of satisfaction.",
     },
     {
       imgSrc: "https://source.unsplash.com/C8Ta0gwPbQg",
-      name: "Olivia Wathan",
+      name: "Sting",
       role: "Hair Stylist",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nesciunt officia aliquam neque optio? Cumque facere numquam est.",
+        "A seasoned professional with an impressive 8-year tenure in the salon industry, Sting has honed his skills at distinguished establishments such as Aboom Salon, Kukaz Salon, and Swan & Beyonce Salon. His wealth of experience and expertise make him a valuable addition to our team. Sting's passion for hairstyling, coupled with his unwavering commitment to excellence, ensures that clients consistently receive top-notch service during every visit.",
     },
     {
       imgSrc:
         "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
-      name: "John Doe",
+      name: "Jenny",
       role: "Hair Stylist",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nesciunt officia aliquam neque optio? Cumque facere numquam est.",
+        "As a skilled professional at PIXIE UNISEX SALON SPA, Jenny boasts a year of comprehensive experience in delivering top-notch beauty services. Her expertise spans a diverse range of beauty treatments, showcasing her dedication and proficiency in the salon's offerings. Jenny's unwavering commitment to excellence shines through, making her an invaluable asset to our team.",
     },
   ];
 

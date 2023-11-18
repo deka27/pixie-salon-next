@@ -1,12 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import Image, { StaticImageData } from "next/image";
-import Bgs from "@/public/img/bgs.svg";
-import image from "@/public/img/services/mani.jpg";
-import ipedi from "@/public/img/icons/pedi.png";
-import inail from "@/public/img/icons/nails.png";
+import Bgs from "../../media/bgs.svg";
+import image from "../../media/services/mani.jpg";
+import ipedi from "../../media/icons/pedi.png";
+import inail from "../../media/icons/nails.png";
 
 
 import Dropdown from "../Dropdown";

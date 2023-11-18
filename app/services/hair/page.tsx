@@ -3,12 +3,13 @@
 import { useEffect, useState } from "react";
 
 import Image, { StaticImageData } from "next/image";
-import Bgs from "@/public/img/bgs.svg";
-import image from "@/public/img/services/hair.jpg";
-import ihaircut from "@/public/img/icons/haircut.png";
-import ihaircolor from "@/public/img/icons/haircolor.png";
-import istyling from "@/public/img/icons/styling.png";
-import itexture from "@/public/img/icons/texture.png";
+import Bgs from "../../media/bgs.svg";
+import image from "../../media/services/hair.jpg";
+import ihaircut from "../../media/icons/haircut.png";
+import ihaircolor from "../../media/icons/haircolor.png";
+import istyling from "../../media/icons/styling.png";
+import itexture from "../../media/icons/texture.png";
+
 
 import Dropdown from "../Dropdown";
 

@@ -1,7 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
-
+import NextTopLoader from "nextjs-toploader";
 import Header from './(components)/Header'
 import Footer from './(components)/Footer'
 import Line from './(components)/Line'
@@ -23,11 +23,11 @@ export default function RootLayout({
     <html lang="en">
       
       <body className={poppins.className}>
+      {/* <NextTopLoader initialPosition={0.2} showSpinner={false} /> */}
       <Header/>
         {children}
       <Line/> 
-      <Footer/> 
-      
+      <Footer/>      
       </body>
       
     </html>

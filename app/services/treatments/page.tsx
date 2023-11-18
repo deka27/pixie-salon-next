@@ -2,10 +2,12 @@
 
 import { useState } from "react";
 import Image, { StaticImageData } from "next/image";
-import Bgs from "@/public/img/bgs.svg";
-import image from "@/public/img/services/treat.jpg";
-import itreat from "@/public/img/icons/treatments.png";
-import imassage from "@/public/img/icons/massage.png";
+
+import Bgs from "../../media/bgs.svg";
+import image from "../../media/services/treat.jpg";
+import itreat from "../../media/icons/treatments.png";
+import imassage from "../../media/icons/massage.png";
+
 import { AiFillInfoCircle } from "react-icons/ai";
 import Dropdown from "../Dropdown";
 import { motion } from "framer-motion";
