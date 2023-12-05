@@ -57,7 +57,7 @@ export default function Map() {
                 Our friendly team is here to help.
               </p>
               <p className="mt-2 text-sm">
-                hello@salon.com
+              pixieunisexsalonspa@gmail.com
               </p>
             </div>
 
@@ -120,7 +120,7 @@ export default function Map() {
                 Mon-Fri from 8am to 5pm.
               </p>
               <p className="mt-2 text-sm ">
-                +91-12345-67890
+                +91-7070709626
               </p>
             </div>
           </div>

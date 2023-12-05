@@ -58,7 +58,7 @@ return (
                   GET IN TOUCH WITH US
                 </h2>
                 <p className="text-base leading-relaxed mb-9 text-body-color">
-                At Gianna, we value your inquiries and feedback. Our dedicated team is always ready to assist you with any questions or appointment requests. Feel free to reach out to us. We look forward to hearing from you and helping you achieve your beauty and wellness goals. Your satisfaction is our priority, and we can&apos;t wait to pamper you at our salon soon!
+                At Pixie, we value your inquiries and feedback. Our dedicated team is always ready to assist you with any questions or appointment requests. Feel free to reach out to us. We look forward to hearing from you and helping you achieve your beauty and wellness goals. Your satisfaction is our priority, and we can&apos;t wait to pamper you at our salon soon!
                 </p>
                 <div className="mb-8 flex w-full max-w-[370px]">
                   <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-white bg-opacity-80 text-primary sm:h-[70px] sm:max-w-[70px]">
@@ -98,7 +98,7 @@ return (
                       Phone Number
                     </div>
                     <p className="text-base text-body-color">
-                    (+91)-12345-67890
+                    (+91)-7070709626
                     </p>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ return (
                       Email Address
                     </div>
                     <p className="text-base text-body-color">
-                    salon@gmail.com
+                    pixieunisexsalonspa@gmail.com
                     </p>
                   </div>
                 </div>

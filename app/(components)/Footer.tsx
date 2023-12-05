@@ -128,7 +128,7 @@ export default function Footer() {
                 href="#"
                 className="block text-2xl font-medium text-gray-400 hover:opacity-75 sm:text-3xl no-underline"
               >
-                0123456789
+                7070709626
               </a>
             </p>
 
